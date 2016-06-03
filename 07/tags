@@ -1,0 +1,87 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+add	List.c	/^struct Object * add (void * _self, const void * element) {$/;"	f
+add1	List.c	/^static void * add1 (struct List * self, const void * element)$/;"	f	file:
+addFirst	List.c	/^struct Object * addFirst (void * _self, const void * element) {$/;"	f
+addLast	List.c	/^struct Object * addLast (void * _self, const void * element) {$/;"	f
+c	makefile	/^c	= Object.c Point.c Circle.c List.c Queue.c Stack.c$/;"	m
+chapter	makefile	/^chapter	= -7$/;"	m
+Circle	Circle.c	/^const void * Circle;$/;"	v
+circles	makefile	/^circles	= circles.o Object.o Point.o Circle.o$/;"	m
+Circle_ctor	Circle.c	/^static void * Circle_ctor (void * _self, va_list * app) {$/;"	f	file:
+Circle_draw	Circle.c	/^static void Circle_draw (const void * _self) {$/;"	f	file:
+Class	Object.c	/^const void * Class = & _Class;$/;"	v
+classOf	Object.c	/^const void * classOf (const void * _self) {$/;"	f
+Class_ctor	Object.c	/^static void * Class_ctor (void * _self, va_list * app) {$/;"	f	file:
+Class_dtor	Object.c	/^static void * Class_dtor (void * _self) {$/;"	f	file:
+count	List.c	/^unsigned count (const void * _self) {$/;"	f
+ctor	Object.c	/^void * ctor (void * _self, va_list * app) {$/;"	f
+d	makefile	/^d	= $(c:.c=)$/;"	m
+delete	Object.c	/^void delete (void * _self) {$/;"	f
+differ	Object.c	/^int differ (const void * _self, const void * b) {$/;"	f
+draw	Point.c	/^void draw (const void * _self) {$/;"	f
+dtor	Object.c	/^void * dtor (void * _self) {$/;"	f
+extend	List.c	/^static void extend (struct List * self)$/;"	f	file:
+h	makefile	/^h	= $(c:.c=.h)$/;"	m
+initCircle	Circle.c	/^void initCircle (void) {$/;"	f
+initList	List.c	/^void initList (void) {$/;"	f
+initPoint	Point.c	/^void initPoint (void) {$/;"	f
+initQueue	Queue.c	/^void initQueue (void) {$/;"	f
+initStack	Stack.c	/^void initStack (void) {$/;"	f
+List	List.c	/^const void * List;$/;"	v
+ListClass	List.c	/^const void * ListClass;$/;"	v
+ListClass_ctor	List.c	/^static void * ListClass_ctor (void * _self, va_list * app) {$/;"	f	file:
+List_ctor	List.c	/^static void * List_ctor (void * _self, va_list * app) {$/;"	f	file:
+List_dtor	List.c	/^static void * List_dtor (void * _self) {$/;"	f	file:
+lookAt	List.c	/^struct Object * lookAt (const void * _self, unsigned n) {$/;"	f
+m	makefile	/^m	= points.c circles.c queues.c stacks.c$/;"	m
+main	circles.c	/^int main (int argc, char ** argv)$/;"	f
+main	points.c	/^int main (int argc, char ** argv)$/;"	f
+main	queues.c	/^int main (int argc, char ** argv)$/;"	f
+main	stacks.c	/^int main (int argc, char ** argv)$/;"	f
+MIN	List.c	8;"	d	file:
+move	Point.c	/^void move (void * _self, int dx, int dy) {$/;"	f
+new	Object.c	/^struct Object * new (const void * _self, ...) {$/;"	f
+Object	Object.c	/^const void * Object = & _Object;$/;"	v
+Object_ctor	Object.c	/^static void * Object_ctor (void * _self, va_list * app) {$/;"	f	file:
+Object_differ	Object.c	/^static int Object_differ (const void * _self, const void * b) {$/;"	f	file:
+Object_dtor	Object.c	/^static void * Object_dtor (void * _self) {$/;"	f	file:
+Object_puto	Object.c	/^static int Object_puto (const void * _self, FILE * fp) {$/;"	f	file:
+Point	Point.c	/^const void * Point;$/;"	v
+PointClass	Point.c	/^const void * PointClass;$/;"	v
+PointClass_ctor	Point.c	/^static void * PointClass_ctor (void * _self, va_list * app) {$/;"	f	file:
+points	makefile	/^points	= points.o Object.o Point.o$/;"	m
+Point_ctor	Point.c	/^static void * Point_ctor (void * _self, va_list * app) {$/;"	f	file:
+Point_draw	Point.c	/^static void Point_draw (const void * _self) {$/;"	f	file:
+puto	Object.c	/^int puto (const void * _self, FILE * fp) {$/;"	f
+Queue	Queue.c	/^const void * Queue;$/;"	v
+queues	makefile	/^queues	= queues.o Object.o List.o Queue.o$/;"	m
+Queue_add	Queue.c	/^static struct Object * Queue_add (void * _self, const void * element) {$/;"	f	file:
+Queue_take	Queue.c	/^static struct Object * Queue_take (void * _self) {$/;"	f	file:
+r	makefile	/^r	= $(c:.c=.r)$/;"	m
+sizeOf	Object.c	/^size_t sizeOf (const void * _self) {$/;"	f
+Stack	Stack.c	/^const void * Stack;$/;"	v
+stacks	makefile	/^stacks	= stacks.o Object.o List.o Stack.o$/;"	m
+Stack_add	Stack.c	/^static struct Object * Stack_add (void * _self, const void * element) {$/;"	f	file:
+Stack_h	Stack.h	2;"	d
+Stack_take	Stack.c	/^static struct Object * Stack_take (void * _self) {$/;"	f	file:
+super	Object.c	/^const void * super (const void * _self) {$/;"	f
+super_add	List.c	/^struct Object * super_add (const void * _class, void * _self, const void * element) {$/;"	f
+super_ctor	Object.c	/^void * super_ctor (const void * _class, void * _self, va_list * app) {$/;"	f
+super_differ	Object.c	/^int super_differ (const void * _class, const void * _self, const void * b) {$/;"	f
+super_draw	Point.c	/^void super_draw (const void * _class, const void * _self) {$/;"	f
+super_dtor	Object.c	/^void * super_dtor (const void * _class, void * _self) {$/;"	f
+super_puto	Object.c	/^int super_puto (const void * _class, const void * _self, FILE * fp) {$/;"	f
+super_take	List.c	/^struct Object * super_take (const void * _class, void * _self) {$/;"	f
+t	makefile	/^t	= $(m:.c=)$/;"	m
+take	List.c	/^struct Object * take (void * _self) {$/;"	f
+takeFirst	List.c	/^struct Object * takeFirst (void * _self) {$/;"	f
+takeLast	List.c	/^struct Object * takeLast (void * _self) {$/;"	f
+_Class	Object.c	/^static const struct Class _Class = {$/;"	v	typeref:struct:Class	file:
+_Class	Object.c	/^static const struct Class _Class;$/;"	v	typeref:struct:Class	file:
+_Object	Object.c	/^static const struct Class _Object = {$/;"	v	typeref:struct:Class	file:
+_Object	Object.c	/^static const struct Class _Object;$/;"	v	typeref:struct:Class	file:

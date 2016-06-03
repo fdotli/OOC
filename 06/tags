@@ -1,0 +1,56 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+any	makefile	/^any	= any.o Object.o$/;"	m
+Any_differ	any.c	/^static int Any_differ (const void * _self, const void * b)$/;"	f	file:
+c	makefile	/^c	= Object.c Point.c Circle.c$/;"	m
+Circle	Circle.c	/^const void * Circle;$/;"	v
+circles	makefile	/^circles	= circles.o Object.o Point.o Circle.o$/;"	m
+Circle_ctor	Circle.c	/^static void * Circle_ctor (void * _self, va_list * app)$/;"	f	file:
+Circle_draw	Circle.c	/^static void Circle_draw (const void * _self)$/;"	f	file:
+CIRCLE_H	Circle.h	2;"	d
+Class	Object.c	/^const void * Class = object + 1;$/;"	v
+classOf	Object.c	/^const void * classOf (const void * _self)$/;"	f
+Class_ctor	Object.c	/^static void * Class_ctor (void * _self, va_list * app)$/;"	f	file:
+Class_dtor	Object.c	/^static void * Class_dtor (void * _self)$/;"	f	file:
+ctor	Object.c	/^void * ctor (void * _self, va_list * app)$/;"	f
+delete	Object.c	/^void delete (void * _self)$/;"	f
+differ	Object.c	/^int differ (const void * _self, const void * b)$/;"	f
+draw	Point.c	/^void draw (const void * _self)$/;"	f
+dtor	Object.c	/^void * dtor (void * _self)$/;"	f
+h	makefile	/^h	= $(c:.c=.h)$/;"	m
+initCircle	Circle.c	/^void initCircle (void)$/;"	f
+initPoint	Point.c	/^void initPoint (void)$/;"	f
+m	makefile	/^m	= any.c points.c circles.c$/;"	m
+main	any.c	/^int main ()$/;"	f
+main	circles.c	/^int main (int argc, char ** argv)$/;"	f
+main	points.c	/^int main (int argc, char ** argv)$/;"	f
+move	Point.c	/^void move (void * _self, int dx, int dy)$/;"	f
+new	Object.c	/^void * new (const void * _class, ...)$/;"	f
+Object	Object.c	/^const void * Object = object;$/;"	v
+object	Object.c	/^static const struct Class object [] = {$/;"	v	typeref:struct:Class	file:
+Object_ctor	Object.c	/^static void * Object_ctor (void * _self, va_list * app)$/;"	f	file:
+Object_differ	Object.c	/^static int Object_differ (const void * _self, const void * b)$/;"	f	file:
+Object_dtor	Object.c	/^static void * Object_dtor (void * _self)$/;"	f	file:
+OBJECT_H	Object.h	2;"	d
+Object_puto	Object.c	/^static int Object_puto (const void * _self, FILE * fp)$/;"	f	file:
+Point	Point.c	/^const void * PointClass, * Point;$/;"	v
+PointClass	Point.c	/^const void * PointClass, * Point;$/;"	v
+PointClass_ctor	Point.c	/^static void * PointClass_ctor (void * _self, va_list * app)$/;"	f	file:
+points	makefile	/^points	= points.o Object.o Point.o$/;"	m
+Point_ctor	Point.c	/^static void * Point_ctor (void * _self, va_list * app)$/;"	f	file:
+Point_draw	Point.c	/^static void Point_draw (const void * _self)$/;"	f	file:
+POINT_H	Point.h	2;"	d
+puto	Object.c	/^int puto (const void * _self, FILE * fp)$/;"	f
+r	makefile	/^r	= $(c:.c=.r)$/;"	m
+sizeOf	Object.c	/^size_t sizeOf (const void * _self)$/;"	f
+super	Object.c	/^const void * super (const void * _self)$/;"	f
+super_ctor	Object.c	/^void * super_ctor (const void * _class,$/;"	f
+super_differ	Object.c	/^int super_differ (const void * _class, const void * _self, const void * b)$/;"	f
+super_draw	Point.c	/^void super_draw (const void * _class, const void * _self)$/;"	f
+super_dtor	Object.c	/^void * super_dtor (const void * _class, void * _self)$/;"	f
+super_puto	Object.c	/^int super_puto (const void * _class, const void * _self, FILE * fp)$/;"	f
+t	makefile	/^t	= $(m:.c=)$/;"	m
